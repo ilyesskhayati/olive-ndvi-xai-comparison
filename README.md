@@ -16,12 +16,14 @@ NDVI pixels at 250 m, and 0.64 of one MODIS LST pixel at 1 km.
 
 ## Notebooks
 
-01  data acquisition        polygon extraction, spatial means
-02  wavelet decomposition   discrete Meyer at native cadence
-03  feature derivation      every predictor justified from evidence
-04  model training          XGBoost, Random Forest, Ridge
-05  attribution             SHAP and permutation, compared across models
-06  selection               stratified, and Ridge as a neutral selector
+01  data acquisition        polygon extraction, MODIS quality screening, SPEI 1-48 months
+02  wavelet decomposition   discrete Meyer at native cadence; look-ahead quantified
+03  feature derivation      every predictor justified from evidence; drought memory
+04  model training          XGBoost, Random Forest, Ridge; noise floor; rolling origin
+05  attribution             permutation, drop-column, grouped and SHAP, across models
+06  selection               stratified, and Ridge weights as a neutral selector
+07  rashomon                explanations across equally good configurations
+08  synthetic ground truth  which explanation recovers known importances
 
 ## Setup
 

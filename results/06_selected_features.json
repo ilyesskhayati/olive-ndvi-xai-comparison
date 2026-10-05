@@ -122,45 +122,7 @@
       "NDVI_S_lag24",
       "NDVI_S_roll12",
       "month_cos",
-      "SPEI_3_S_lag5",
-      "SPEI_6_S_lag2",
-      "LST_S_lag1",
-      "noise_probe"
-    ],
-    "own top-k": [
-      "LST_S_lag1",
-      "NDVI_S_lag24",
-      "NDVI_S_lag1",
-      "NDVI_S_lag12",
-      "NDVI_S_lag23"
-    ],
-    "stratified": [
-      "NDVI_S_lag24",
-      "NDVI_S_lag1",
-      "month_cos",
-      "SPEI_6_S_lag2",
-      "LST_S_lag1"
-    ],
-    "Ridge weights": [
-      "NDVI_S_lag1",
-      "NDVI_S_lag24",
-      "NDVI_S_lag14",
-      "LST_S_lag1",
-      "NDVI_S_lag12"
-    ]
-  },
-  "seasonal|RandomForest": {
-    "all": [
-      "NDVI_S_lag1",
-      "NDVI_S_lag3",
-      "NDVI_S_lag11",
-      "NDVI_S_lag12",
-      "NDVI_S_lag14",
-      "NDVI_S_lag18",
-      "NDVI_S_lag23",
-      "NDVI_S_lag24",
-      "NDVI_S_roll12",
-      "month_cos",
+      "SPEI_24_S_lag1",
       "SPEI_3_S_lag5",
       "SPEI_6_S_lag2",
       "LST_S_lag1",
@@ -184,8 +146,48 @@
       "NDVI_S_lag1",
       "NDVI_S_lag24",
       "NDVI_S_lag14",
+      "NDVI_S_lag12",
+      "LST_S_lag1"
+    ]
+  },
+  "seasonal|RandomForest": {
+    "all": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag3",
+      "NDVI_S_lag11",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14",
+      "NDVI_S_lag18",
+      "NDVI_S_lag23",
+      "NDVI_S_lag24",
+      "NDVI_S_roll12",
+      "month_cos",
+      "SPEI_24_S_lag1",
+      "SPEI_3_S_lag5",
+      "SPEI_6_S_lag2",
       "LST_S_lag1",
-      "NDVI_S_lag12"
+      "noise_probe"
+    ],
+    "own top-k": [
+      "LST_S_lag1",
+      "NDVI_S_lag24",
+      "NDVI_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag18"
+    ],
+    "stratified": [
+      "NDVI_S_lag24",
+      "NDVI_S_lag1",
+      "month_cos",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1"
+    ],
+    "Ridge weights": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag24",
+      "NDVI_S_lag14",
+      "NDVI_S_lag12",
+      "LST_S_lag1"
     ]
   },
   "seasonal|Ridge": {
@@ -200,6 +202,7 @@
       "NDVI_S_lag24",
       "NDVI_S_roll12",
       "month_cos",
+      "SPEI_24_S_lag1",
       "SPEI_3_S_lag5",
       "SPEI_6_S_lag2",
       "LST_S_lag1",
@@ -208,9 +211,9 @@
     "own top-k": [
       "NDVI_S_lag1",
       "NDVI_S_lag24",
-      "LST_S_lag1",
+      "NDVI_S_lag14",
       "NDVI_S_lag12",
-      "NDVI_S_lag14"
+      "LST_S_lag1"
     ],
     "stratified": [
       "NDVI_S_lag1",
@@ -223,8 +226,8 @@
       "NDVI_S_lag1",
       "NDVI_S_lag24",
       "NDVI_S_lag14",
-      "LST_S_lag1",
-      "NDVI_S_lag12"
+      "NDVI_S_lag12",
+      "LST_S_lag1"
     ]
   },
   "trend|XGBoost": {

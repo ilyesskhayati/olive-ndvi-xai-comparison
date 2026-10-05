@@ -32,7 +32,9 @@ original,time_index,time,1,excluded a priori,not extrapolable by tree models; wo
 original,LST_lag2,LST,2,not significant,"best of lags 1-12: r=-0.059, bound 0.227"
 original,SPEI_1_lag12,drought,2,not significant,"best of lags 1-12: r=-0.173, bound 0.190"
 original,SPEI_12_lag9,drought,2,not significant,"best of lags 1-12: r=-0.114, bound 0.231"
+original,SPEI_24_lag12,drought,2,not significant,"best of lags 1-12: r=-0.163, bound 0.233"
 original,SPEI_3_lag1,drought,2,not significant,"best of lags 1-12: r=+0.185, bound 0.214"
+original,SPEI_48_lag10,drought,2,not significant,"best of lags 1-12: r=-0.181, bound 0.234"
 original,SPEI_6_lag1,drought,2,selected,"best of lags 1-12: r=+0.247, bound 0.224"
 original,LST_lag1,LST,3,negative control,no incremental evidence; kept to test attribution
 original,noise_probe,probe,3,random probe,"Gaussian noise, seed 0; true importance zero"
@@ -69,7 +71,9 @@ seasonal,time_index,time,1,excluded a priori,not extrapolable by tree models; wo
 seasonal,LST_S_lag12,LST,2,not significant,"best of lags 1-12: r=+0.052, bound 0.219"
 seasonal,SPEI_1_S_lag6,drought,2,not significant,"best of lags 1-12: r=+0.153, bound 0.187"
 seasonal,SPEI_12_S_lag10,drought,2,implausible sign,"best of lags 1-12: r=-0.250, bound 0.217"
+seasonal,SPEI_24_S_lag1,drought,2,selected,"best of lags 1-12: r=+0.281, bound 0.209"
 seasonal,SPEI_3_S_lag5,drought,2,selected,"best of lags 1-12: r=+0.234, bound 0.205"
+seasonal,SPEI_48_S_lag10,drought,2,implausible sign,"best of lags 1-12: r=-0.279, bound 0.214"
 seasonal,SPEI_6_S_lag2,drought,2,selected,"best of lags 1-12: r=+0.300, bound 0.212"
 seasonal,LST_S_lag1,LST,3,negative control,no incremental evidence; kept to test attribution
 seasonal,noise_probe,probe,3,random probe,"Gaussian noise, seed 0; true importance zero"
@@ -106,7 +110,9 @@ trend,time_index,time,1,excluded a priori,not extrapolable by tree models; would
 trend,LST_T_lag7,LST,2,not significant,"best of lags 1-12: r=+0.133, bound 0.194"
 trend,SPEI_1_T_lag12,drought,2,not significant,"best of lags 1-12: r=-0.152, bound 0.194"
 trend,SPEI_12_T_lag9,drought,2,not significant,"best of lags 1-12: r=-0.135, bound 0.194"
+trend,SPEI_24_T_lag12,drought,2,not significant,"best of lags 1-12: r=-0.152, bound 0.194"
 trend,SPEI_3_T_lag12,drought,2,not significant,"best of lags 1-12: r=-0.120, bound 0.194"
+trend,SPEI_48_T_lag10,drought,2,implausible sign,"best of lags 1-12: r=-0.244, bound 0.194"
 trend,SPEI_6_T_lag11,drought,2,not significant,"best of lags 1-12: r=-0.117, bound 0.194"
 trend,SPEI_1_T_lag1,drought,3,family representative,"no SPEI lag passed; strongest plausible-sign lag kept (r=+0.013, bound 0.194)"
 trend,LST_T_lag1,LST,3,negative control,no incremental evidence; kept to test attribution
