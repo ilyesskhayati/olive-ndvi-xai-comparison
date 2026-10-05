@@ -1,0 +1,19 @@
+branch,pair,kind,rho,rho_min
+original,XGBoost vs itself,within,0.9615384615384615,0.9230769230769231
+original,RandomForest vs itself,within,0.9972027972027974,0.9930069930069931
+original,Ridge vs itself,within,1.0,1.0
+original,XGBoost vs RandomForest,between,0.7958041958041959,0.7412587412587414
+original,XGBoost vs Ridge,between,0.4979020979020979,0.4545454545454546
+original,RandomForest vs Ridge,between,0.5916083916083916,0.5804195804195805
+seasonal,XGBoost vs itself,within,0.8417582417582418,0.7010989010989012
+seasonal,RandomForest vs itself,within,0.9938461538461538,0.9868131868131869
+seasonal,Ridge vs itself,within,0.9956043956043956,0.9912087912087912
+seasonal,XGBoost vs RandomForest,between,0.8934505494505496,0.8021978021978022
+seasonal,XGBoost vs Ridge,between,0.6935384615384617,0.6175824175824175
+seasonal,RandomForest vs Ridge,between,0.6958241758241759,0.6571428571428571
+trend,XGBoost vs itself,within,0.9399999999999998,0.8999999999999998
+trend,RandomForest vs itself,within,0.9999999999999998,0.9999999999999999
+trend,Ridge vs itself,within,0.9999999999999998,0.9999999999999999
+trend,XGBoost vs RandomForest,between,0.66,0.6
+trend,XGBoost vs Ridge,between,0.68,0.49999999999999994
+trend,RandomForest vs Ridge,between,0.6999999999999998,0.7
