@@ -1,0 +1,302 @@
+{
+  "original|XGBoost": {
+    "all": [
+      "NDVI_lag1",
+      "NDVI_lag3",
+      "NDVI_lag11",
+      "NDVI_lag12",
+      "NDVI_lag14",
+      "NDVI_lag18",
+      "NDVI_lag23",
+      "NDVI_lag24",
+      "month_cos",
+      "SPEI_6_lag1",
+      "LST_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "LST_lag1",
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "NDVI_lag11",
+      "NDVI_lag23"
+    ],
+    "stratified": [
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "month_cos",
+      "SPEI_6_lag1",
+      "LST_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "NDVI_lag12",
+      "LST_lag1",
+      "NDVI_lag3"
+    ]
+  },
+  "original|RandomForest": {
+    "all": [
+      "NDVI_lag1",
+      "NDVI_lag3",
+      "NDVI_lag11",
+      "NDVI_lag12",
+      "NDVI_lag14",
+      "NDVI_lag18",
+      "NDVI_lag23",
+      "NDVI_lag24",
+      "month_cos",
+      "SPEI_6_lag1",
+      "LST_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "LST_lag1",
+      "NDVI_lag24",
+      "NDVI_lag1",
+      "NDVI_lag12",
+      "NDVI_lag18"
+    ],
+    "stratified": [
+      "NDVI_lag24",
+      "NDVI_lag1",
+      "month_cos",
+      "SPEI_6_lag1",
+      "LST_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "NDVI_lag12",
+      "LST_lag1",
+      "NDVI_lag3"
+    ]
+  },
+  "original|Ridge": {
+    "all": [
+      "NDVI_lag1",
+      "NDVI_lag3",
+      "NDVI_lag11",
+      "NDVI_lag12",
+      "NDVI_lag14",
+      "NDVI_lag18",
+      "NDVI_lag23",
+      "NDVI_lag24",
+      "month_cos",
+      "SPEI_6_lag1",
+      "LST_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "NDVI_lag12",
+      "LST_lag1",
+      "NDVI_lag3"
+    ],
+    "stratified": [
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "month_cos",
+      "SPEI_6_lag1",
+      "LST_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_lag1",
+      "NDVI_lag24",
+      "NDVI_lag12",
+      "LST_lag1",
+      "NDVI_lag3"
+    ]
+  },
+  "seasonal|XGBoost": {
+    "all": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag3",
+      "NDVI_S_lag11",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14",
+      "NDVI_S_lag18",
+      "NDVI_S_lag23",
+      "NDVI_S_lag24",
+      "NDVI_S_roll12",
+      "month_cos",
+      "SPEI_3_S_lag5",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "LST_S_lag1",
+      "NDVI_S_lag24",
+      "NDVI_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag23"
+    ],
+    "stratified": [
+      "NDVI_S_lag24",
+      "NDVI_S_lag1",
+      "month_cos",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag24",
+      "LST_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14"
+    ]
+  },
+  "seasonal|RandomForest": {
+    "all": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag3",
+      "NDVI_S_lag11",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14",
+      "NDVI_S_lag18",
+      "NDVI_S_lag23",
+      "NDVI_S_lag24",
+      "NDVI_S_roll12",
+      "month_cos",
+      "SPEI_3_S_lag5",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "LST_S_lag1",
+      "NDVI_S_lag24",
+      "NDVI_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag18"
+    ],
+    "stratified": [
+      "NDVI_S_lag24",
+      "NDVI_S_lag1",
+      "month_cos",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag24",
+      "LST_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14"
+    ]
+  },
+  "seasonal|Ridge": {
+    "all": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag3",
+      "NDVI_S_lag11",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14",
+      "NDVI_S_lag18",
+      "NDVI_S_lag23",
+      "NDVI_S_lag24",
+      "NDVI_S_roll12",
+      "month_cos",
+      "SPEI_3_S_lag5",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag24",
+      "LST_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14"
+    ],
+    "stratified": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag24",
+      "month_cos",
+      "SPEI_6_S_lag2",
+      "LST_S_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_S_lag1",
+      "NDVI_S_lag24",
+      "LST_S_lag1",
+      "NDVI_S_lag12",
+      "NDVI_S_lag14"
+    ]
+  },
+  "trend|XGBoost": {
+    "all": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24",
+      "LST_T_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag24",
+      "NDVI_T_lag10"
+    ],
+    "stratified": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag24",
+      "LST_T_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24"
+    ]
+  },
+  "trend|RandomForest": {
+    "all": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24",
+      "LST_T_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag24",
+      "LST_T_lag1"
+    ],
+    "stratified": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag24",
+      "LST_T_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24"
+    ]
+  },
+  "trend|Ridge": {
+    "all": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24",
+      "LST_T_lag1",
+      "noise_probe"
+    ],
+    "own top-k": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24"
+    ],
+    "stratified": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "LST_T_lag1"
+    ],
+    "Ridge top-k": [
+      "NDVI_T_lag1",
+      "NDVI_T_lag10",
+      "NDVI_T_lag24"
+    ]
+  }
+}
