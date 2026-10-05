@@ -28,12 +28,12 @@
       "SPEI_6_lag1",
       "LST_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_lag1",
-      "NDVI_lag24",
       "NDVI_lag12",
+      "NDVI_lag24",
       "LST_lag1",
-      "NDVI_lag3"
+      "NDVI_lag14"
     ]
   },
   "original|RandomForest": {
@@ -65,12 +65,12 @@
       "SPEI_6_lag1",
       "LST_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_lag1",
-      "NDVI_lag24",
       "NDVI_lag12",
+      "NDVI_lag24",
       "LST_lag1",
-      "NDVI_lag3"
+      "NDVI_lag14"
     ]
   },
   "original|Ridge": {
@@ -102,12 +102,12 @@
       "SPEI_6_lag1",
       "LST_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_lag1",
-      "NDVI_lag24",
       "NDVI_lag12",
+      "NDVI_lag24",
       "LST_lag1",
-      "NDVI_lag3"
+      "NDVI_lag14"
     ]
   },
   "seasonal|XGBoost": {
@@ -141,12 +141,12 @@
       "SPEI_6_S_lag2",
       "LST_S_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_S_lag1",
       "NDVI_S_lag24",
+      "NDVI_S_lag14",
       "LST_S_lag1",
-      "NDVI_S_lag12",
-      "NDVI_S_lag14"
+      "NDVI_S_lag12"
     ]
   },
   "seasonal|RandomForest": {
@@ -180,12 +180,12 @@
       "SPEI_6_S_lag2",
       "LST_S_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_S_lag1",
       "NDVI_S_lag24",
+      "NDVI_S_lag14",
       "LST_S_lag1",
-      "NDVI_S_lag12",
-      "NDVI_S_lag14"
+      "NDVI_S_lag12"
     ]
   },
   "seasonal|Ridge": {
@@ -219,12 +219,12 @@
       "SPEI_6_S_lag2",
       "LST_S_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_S_lag1",
       "NDVI_S_lag24",
+      "NDVI_S_lag14",
       "LST_S_lag1",
-      "NDVI_S_lag12",
-      "NDVI_S_lag14"
+      "NDVI_S_lag12"
     ]
   },
   "trend|XGBoost": {
@@ -232,23 +232,27 @@
       "NDVI_T_lag1",
       "NDVI_T_lag10",
       "NDVI_T_lag24",
+      "SPEI_1_T_lag1",
       "LST_T_lag1",
       "noise_probe"
     ],
     "own top-k": [
       "NDVI_T_lag1",
       "NDVI_T_lag24",
+      "SPEI_1_T_lag1",
       "NDVI_T_lag10"
     ],
     "stratified": [
       "NDVI_T_lag1",
       "NDVI_T_lag24",
+      "SPEI_1_T_lag1",
       "LST_T_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_T_lag1",
       "NDVI_T_lag10",
-      "NDVI_T_lag24"
+      "NDVI_T_lag24",
+      "LST_T_lag1"
     ]
   },
   "trend|RandomForest": {
@@ -256,23 +260,27 @@
       "NDVI_T_lag1",
       "NDVI_T_lag10",
       "NDVI_T_lag24",
+      "SPEI_1_T_lag1",
       "LST_T_lag1",
       "noise_probe"
     ],
     "own top-k": [
       "NDVI_T_lag1",
       "NDVI_T_lag24",
-      "LST_T_lag1"
+      "LST_T_lag1",
+      "SPEI_1_T_lag1"
     ],
     "stratified": [
       "NDVI_T_lag1",
       "NDVI_T_lag24",
+      "SPEI_1_T_lag1",
       "LST_T_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_T_lag1",
       "NDVI_T_lag10",
-      "NDVI_T_lag24"
+      "NDVI_T_lag24",
+      "LST_T_lag1"
     ]
   },
   "trend|Ridge": {
@@ -280,23 +288,27 @@
       "NDVI_T_lag1",
       "NDVI_T_lag10",
       "NDVI_T_lag24",
+      "SPEI_1_T_lag1",
       "LST_T_lag1",
       "noise_probe"
     ],
     "own top-k": [
       "NDVI_T_lag1",
       "NDVI_T_lag10",
-      "NDVI_T_lag24"
+      "NDVI_T_lag24",
+      "LST_T_lag1"
     ],
     "stratified": [
       "NDVI_T_lag1",
       "NDVI_T_lag10",
+      "SPEI_1_T_lag1",
       "LST_T_lag1"
     ],
-    "Ridge top-k": [
+    "Ridge weights": [
       "NDVI_T_lag1",
       "NDVI_T_lag10",
-      "NDVI_T_lag24"
+      "NDVI_T_lag24",
+      "LST_T_lag1"
     ]
   }
 }

@@ -34,18 +34,18 @@
     "ridge__alpha": 2.682695795279722
   },
   "trend|XGBoost": {
-    "colsample_bytree": 0.8419382078980184,
-    "learning_rate": 0.09158072799352635,
+    "colsample_bytree": 0.9166900152330658,
+    "learning_rate": 0.048764991758354435,
     "max_depth": 2,
-    "min_child_weight": 3,
-    "n_estimators": 755,
-    "subsample": 0.6480786244852675
+    "min_child_weight": 2,
+    "n_estimators": 737,
+    "subsample": 0.6284144232791548
   },
   "trend|RandomForest": {
-    "max_depth": null,
+    "max_depth": 12,
     "max_features": 1.0,
     "min_samples_leaf": 1,
-    "n_estimators": 594
+    "n_estimators": 428
   },
   "trend|Ridge": {
     "ridge__alpha": 0.0001
